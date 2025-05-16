@@ -86,7 +86,6 @@ class _StepsWalkedScreenState extends State<StepsWalkedScreen> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: List.generate(labels.length, (index) {
-                            // Determine border radius for first and last items
                             BorderRadius? borderRadius;
                             if (index == 0) {
                               borderRadius = BorderRadius.only(
